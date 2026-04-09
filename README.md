@@ -1,4 +1,5 @@
 # ⚖️ AI Techniques for Legal Document Processing using RAG
+
 ---
 
 ## 👨‍🎓 Author
@@ -37,7 +38,7 @@ The result is a system that produces **accurate, context-aware, and evidence-bas
 
 ## 🧠 System Architecture
 
-```
+```text
 User Query
     ↓
 Query Embedding
@@ -145,22 +146,44 @@ streamlit run app.py
 
 ## 📁 Project Structure
 
-```
+```text
 .
-├── app.py
-├── requirements.txt
-├── README.md
-├── data/
-├── src/
-├── models/
-├── utils/
+├── .env                # Environment variables (DO NOT upload to GitHub)
+├── .python-version     # Python version configuration
+├── README.md           # Project documentation
+├── app.py              # Streamlit application entry point
+├── chat_engine.py      # Query processing and response generation
+├── config.py           # Configuration settings
+├── extractor.py        # Document extraction and preprocessing
+├── main.py             # Main pipeline execution
+├── pyproject.toml      # Project metadata and dependencies
+├── requirements.txt    # Python dependencies
+├── store.py            # Vector database and retrieval logic
+├── summariser.py       # Summarisation utilities
+└── uv.lock             # Dependency lock file
+```
+
+---
+
+## 🔐 Important Note
+
+⚠️ The `.env` file contains sensitive information (API keys).
+**Do NOT upload it to GitHub.**
+
+Add this to your `.gitignore`:
+
+```bash
+.env
+__pycache__/
+*.pyc
+.venv/
 ```
 
 ---
 
 ## 📸 Screenshots (Recommended)
 
-> Add screenshots here before final submission:
+> Add screenshots before final submission:
 
 * System Interface
 * Document Upload
@@ -192,3 +215,4 @@ MSc Computer Science — London
 This project is part of an MSc dissertation and demonstrates a practical implementation of Retrieval-Augmented Generation (RAG) for legal AI systems, focusing on improving accuracy, contextual understanding, and trustworthiness in legal information retrieval.
 
 ---
+
