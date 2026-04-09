@@ -1,10 +1,4 @@
 # ⚖️ AI Techniques for Legal Document Processing using RAG
-
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![Streamlit](https://img.shields.io/badge/UI-Streamlit-red)
-![FAISS](https://img.shields.io/badge/VectorDB-FAISS-green)
-![Status](https://img.shields.io/badge/Project-Completed-success)
-
 ---
 
 ## 👨‍🎓 Author
