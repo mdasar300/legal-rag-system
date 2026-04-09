@@ -1,0 +1,19 @@
+[project]
+name = "practical-code"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "faiss-cpu==1.7.4",
+    "google-genai>=1.0.0",
+    "nltk==3.8.1",
+    "numpy==1.26.4",
+    "pillow==10.2.0",
+    "pymupdf==1.26.5",
+    "python-docx==1.1.0",
+    "python-dotenv==1.0.1",
+    "python-pptx==0.6.23",
+    "sentence-transformers==2.7.0",
+    "streamlit==1.31.0",
+]
